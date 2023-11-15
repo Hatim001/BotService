@@ -48,7 +48,7 @@ if __name__ == "__main__":
         port = int(port)
 
     key0 = [] 
-    while len(key0) <10: 
+    while len(key0)<10: 
         while True: 
             candidate = random.randint(0, 9) 
             if candidate in key0: 
@@ -56,7 +56,7 @@ if __name__ == "__main__":
             key0.append(candidate) 
     
     key1 = [] 
-    while len(key1) <10: 
+    while len(key1)<10: 
         while True: 
             candidate = random.randint(10,19) 
             if candidate in key1: 
